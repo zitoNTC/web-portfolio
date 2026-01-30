@@ -1,0 +1,33 @@
+.header {
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: clamp(2rem, 2.5vw + 1rem, 3rem);
+  margin: 0 0 8px;
+}
+
+.subtitle {
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.grid {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card {
+  background: var(--color-surface);
+  padding: 24px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}

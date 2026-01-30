@@ -1,0 +1,26 @@
+.section {
+  padding-bottom: 120px;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  font-size: clamp(2rem, 2.5vw + 1rem, 3rem);
+  margin: 0 0 12px;
+}
+
+.subtitle {
+  color: var(--color-text-muted);
+  margin: 0 auto 32px;
+  max-width: 640px;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+

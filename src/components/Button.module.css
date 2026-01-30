@@ -1,0 +1,32 @@
+.button {
+  padding: 12px 20px;
+  border-radius: 999px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid transparent;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:focus-visible {
+  outline: 3px solid rgba(47, 111, 237, 0.35);
+  outline-offset: 2px;
+}
+
+.primary {
+  background: var(--color-accent);
+  color: #ffffff;
+  box-shadow: var(--shadow-soft);
+}
+
+.ghost {
+  border-color: var(--color-border);
+  color: var(--color-text);
+  background: transparent;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
