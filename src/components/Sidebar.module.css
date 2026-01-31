@@ -1,0 +1,74 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20vw;
+  min-width: 220px;
+  height: 100vh;
+  padding: 32px 24px;
+  background: var(--color-surface);
+  border-right: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.brand {
+  display: grid;
+  gap: 6px;
+}
+
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.name {
+  margin: 0;
+  font-size: clamp(1.8rem, 2vw + 1rem, 2.6rem);
+}
+
+.role {
+  margin: 0;
+  color: var(--color-text-muted);
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 12px;
+}
+
+.nav a {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.nav a:hover {
+  color: var(--color-accent);
+}
+
+.links {
+  display: grid;
+  gap: 8px;
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+}
+
+.links a:hover {
+  color: var(--color-accent);
+}
+
+@media (max-width: 900px) {
+  .sidebar {
+    position: static;
+    width: 100%;
+    height: auto;
+    border-right: none;
+    border-bottom: 1px solid var(--color-border);
+  }
+}
