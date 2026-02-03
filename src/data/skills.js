@@ -1,18 +1,54 @@
 export const skills = [
   {
     group: 'Frontend',
-    items: ['React', 'TypeScript', 'Vite', 'CSS Modules', 'HTML5', 'Accessibility'],
+    items: ['React',
+      'Angular',
+      'TypeScript',
+      'JavaScript',
+      'Vite',
+      'HTML5',
+      'CSS',
+      'Responsive Design',],
+  },  
+  {
+    group: 'Backend',
+    items: [
+      'Node.js',
+      'Express.js',
+      'REST APIs',
+      'Python',
+      'Flask',
+    ],
   },
   {
-    group: 'Tooling',
-    items: ['Git', 'Vite', 'ESLint', 'Prettier', 'Storybook'],
+    group: 'Databases',
+    items: [
+      'SQL',
+      'MongoDB',
+      'Redis',
+      'Firebase',
+    ],
   },
   {
-    group: 'Testing',
-    items: ['Vitest', 'React Testing Library', 'Playwright'],
+    group: 'Tooling & Integrations',
+    items: [
+      'Git',
+      'GitHub',
+      'npm',
+      'Postman',
+      'n8n',
+      'ESLint',
+      'Prettier',
+    ],
   },
   {
-    group: 'Other',
-    items: ['Figma', 'Agile', 'Design Systems'],
+    group: 'Cloud & AI',
+    items: [
+      'Azure',
+      'Docker',
+      'Kubernetes',
+      'Machine Learning',
+      'Generative AI',
+    ],
   },
 ]

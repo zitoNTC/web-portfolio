@@ -1,5 +1,5 @@
 export const links = {
-  email: '@email.com',
-  github: 'https://github.com/',
-  linkedin: 'https://linkedin.com/in/',
+  email: 'lucasalveszito@gmail.com',
+  github: 'https://github.com/zitoNTC',
+  linkedin: 'https://linkedin.com/in/lucas-alves-zito/',
 }
