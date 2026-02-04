@@ -18,15 +18,17 @@ export default function Sidebar() {
         <h1 className={styles.name}>{profile.name}</h1>
         <p className={styles.role}>{profile.role}</p>
       </div>
-      <nav className={styles.nav}>
-        <ul>
-          {navItems.map((item) => (
-            <li key={item.id}>
-              <a href={`#${item.id}`}>{item.label}</a>
-            </li>
-          ))}
-        </ul>
-      </nav>
+      <div className={styles.navWrap}>
+        <nav className={styles.nav}>
+          <ul>
+            {navItems.map((item) => (
+              <li key={item.id}>
+                <a href={`#${item.id}`}>{item.label}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
       <div className={styles.links}>
         <a href={`mailto:${links.email}`}>{links.email}</a>
         <a href={links.linkedin} target="_blank" rel="noreferrer">

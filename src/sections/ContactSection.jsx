@@ -8,7 +8,7 @@ export default function ContactSection() {
     <Section id="contact" className={styles.section} containerClassName={styles.container}>
       <h2 className={styles.title}>Contact</h2>
       <p className={styles.subtitle}>
-        Want to collaborate or chat about a project? Reach out anytime.
+       Open to freelance projects and job opportunities. Feel free to get in touch.
       </p>
       <div className={styles.actions}>
         <Button href={`mailto:${links.email}`}>{links.email}</Button>

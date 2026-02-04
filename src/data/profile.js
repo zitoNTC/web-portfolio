@@ -1,5 +1,5 @@
 export const profile = {
-  name: 'Lucas Alves Zito',
+  name: 'Lucas Zito',
   role: 'Software Developer',
   location: 'Brazil (Remote-friendly)',
   

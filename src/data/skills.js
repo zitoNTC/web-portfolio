@@ -34,21 +34,11 @@ export const skills = [
     items: [
       'Git',
       'GitHub',
-      'npm',
       'Postman',
       'n8n',
-      'ESLint',
-      'Prettier',
-    ],
-  },
-  {
-    group: 'Cloud & AI',
-    items: [
       'Azure',
       'Docker',
-      'Kubernetes',
-      'Machine Learning',
-      'Generative AI',
+      'Kubernetes',      
     ],
-  },
+  },  
 ]

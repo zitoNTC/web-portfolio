@@ -1,29 +1,21 @@
 export const projects = [
   {
-    id: 'trackwise',
-    title: 'Trackwise',
+    id: 'website-ai-chatbot',
+    title: 'AI Chatbot Widget',
     description:
-      'Personal finance dashboard with charts, budgets, and recurring expense tracking.',
-    stack: ['React', 'Vite', 'Chart.js', 'CSS Modules'],
-    githubUrl: 'https://github.com/zito/trackwise',
-    liveUrl: 'https://trackwise-demo.netlify.app',
-  },
+      'AI-powered chatbot widget for websites with LLM integration, conversation context management, input validation, and rate limiting.',
+    stack: ['Node.js', 'Express', 'OpenAI API'],
+    githubUrl: 'https://github.com/zitoNTC/website-ai-chatbot',
+    liveUrl: '',
+  },  
   {
-    id: 'devboard',
-    title: 'DevBoard',
+    id: 'habit-tracker-flutter',
+    title: 'Habit Tracker',
     description:
-      'Developer toolkit hub featuring a markdown editor, API tester, and snippets.',
-    stack: ['React', 'TypeScript', 'Monaco', 'Vercel'],
-    githubUrl: 'https://github.com/zito/devboard',
-    liveUrl: 'https://devboard.app',
+      'Offline-first personal habit tracker supporting boolean and numeric habits, with yearly calendar views and monthly progress history.',
+    stack: ['Flutter', 'Riverpod', 'Hive'],
+    githubUrl: 'https://github.com/zitoNTC/habit-tracker-flutter',
+    liveUrl: '',
   },
-  {
-    id: 'portico',
-    title: 'Portico',
-    description:
-      'Clean and responsive marketing site with reusable section blocks.',
-    stack: ['React', 'Vite', 'Framer Motion'],
-    githubUrl: 'https://github.com/zito/portico',
-    liveUrl: 'https://portico-ui.com',
-  },
+  
 ]

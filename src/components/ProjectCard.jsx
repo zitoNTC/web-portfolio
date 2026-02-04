@@ -2,6 +2,9 @@ import Button from './Button'
 import styles from './ProjectCard.module.css'
 
 export default function ProjectCard({ project }) {
+  const hasGithubUrl = Boolean(project.githubUrl?.trim())
+  const hasLiveUrl = Boolean(project.liveUrl?.trim())
+
   return (
     <article className={styles.card}>
       <div>
@@ -16,12 +19,16 @@ export default function ProjectCard({ project }) {
         ))}
       </div>
       <div className={styles.links}>
-        <Button href={project.githubUrl} variant="ghost" target="_blank" rel="noreferrer">
-          GitHub
-        </Button>
-        <Button href={project.liveUrl} variant="primary" target="_blank" rel="noreferrer">
-          Live Demo
-        </Button>
+        {hasGithubUrl && (
+          <Button href={project.githubUrl} variant="primary" target="_blank" rel="noreferrer">
+            GitHub
+          </Button>
+        )}
+        {hasLiveUrl && (
+          <Button href={project.liveUrl} variant="ghost" target="_blank" rel="noreferrer">
+            Live Demo
+          </Button>
+        )}
       </div>
     </article>
   )
